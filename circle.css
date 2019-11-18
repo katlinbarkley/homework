@@ -1,0 +1,52 @@
+#parent {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  margin: 50px 0 0 100px;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+#grid-parent {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1.5px;
+  margin: 0px 0 0 0px;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  overflow: hidden;
+  border-radius: 100px;
+}
+#red {
+  background: red;
+  color: white;
+}
+#yellow {
+  background: yellow;
+}
+#blue {
+  background: blue;
+  color: white;
+}
+#green {
+  background: green;
+  color: white;
+}
+
+.grid-item {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+.center-top {
+  margin: 0;
+  position: relative;
+  top: 50px;
+}
+.center-bottom {
+  margin: 0;
+  position: relative;
+  top: 30px;
+  bottom: 50px;
+}
