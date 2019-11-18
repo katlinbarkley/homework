@@ -29,7 +29,7 @@
 # 6. make a def to change the quantity of a product
 # 7. make a def to add products to any category
 
-class Grocery_Inventory
+class Inventory
 
     attr_accessor :product_category, :product_name, :quantity, :serial_number, :product_cost, :sell_price
 
@@ -49,8 +49,10 @@ class Grocery_Inventory
 
 end
 
-apples = [product_category: "fruit", product_name: "apples", quantity: "50lbs", serial_number: "#10202", product_cost: "$0.25/lb", sell_price: "1.25/lb"]
-puts apples
+# apples = [product_category: "fruit", product_name: "apples", quantity: "50lbs", serial_number: "#10202", product_cost: "$0.25/lb", sell_price: "1.25/lb"]
+# puts apples
 
-puts "What is the category?"
-product_category = gets.chomp.push
+# puts "What is the category?"
+# product_category = gets.chomp.push
+
+add_to_inventory
